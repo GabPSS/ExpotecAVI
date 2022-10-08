@@ -1,0 +1,22 @@
+{
+  "Title": "Aula sobre assunto x",
+  "VAulas":
+  [
+    {
+      "Title": "Parte 1",
+      "Duvidas": [
+        "Qual a primeira dúvida?",
+        "Qual a segunda dúvida?",
+        "Qual a terceira dúvida?"
+      ]
+    },
+    {
+      "Title": "Parte 2",
+      "Duvidas": [
+        "Qual a primeira dúvida?",
+        "Qual a segunda dúvida?",
+        "Qual a terceira dúvida?"
+      ]
+    }
+  ]
+}
