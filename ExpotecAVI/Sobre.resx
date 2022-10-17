@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>O A.V.I. (Aula Virtual Interativa) é como o prórpio nome diz, serão aulas gravadas e interativas, onde será possível fazer perguntas sobre a aula. O A.V.I. irá entrar em uso, principalmente em escolas, quando o professor faltar e estiver incapacitado de dar aula. A.V.I. é usado agora como um projeto escolar para a Expotec, mas futuramente podendendo ser vendido para quem desejar obtê-lo</value>
+  </data>
 </root>

@@ -39,7 +39,13 @@ namespace ExpotecAVI
             back.Show();
             DenyMouseMovement(back,new MouseEventArgs(MouseButtons.None,0,0,0,0));
             this.Focus();
-
+            if (Properties.Settings.Default.firstTime)
+            {
+                Sobre about = new Sobre();
+                about.ShowDialog();
+                Properties.Settings.Default.firstTime = false;
+                Properties.Settings.Default.Save();
+            }
             LoadAulas();
         }
 
