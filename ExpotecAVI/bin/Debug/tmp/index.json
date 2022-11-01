@@ -1,0 +1,27 @@
+{
+  "Title": "1ª Lei de Ohm",
+  "VAulas":
+  [
+    {
+      "Title": "Introdução",
+      "Duvidas": [
+        "Por que a corrente é inversamente proporcional à resistência?",
+        "Por que a corrente é diretamente proporcional à tensão?"
+      ]
+    },
+    {
+      "Title": "Fórmulas da 1ª Lei de Ohm",
+      "Duvidas": [
+        "O que significa cada sigla?"
+      ]
+    },
+    {
+      "Title": "Circuito de exemplo",
+      "Duvidas": [
+        "Como calculamos a corrente?",
+        "Como calculamos a resistência?",
+        "Como calculamos a tensão?"
+      ]
+    }
+  ]
+}

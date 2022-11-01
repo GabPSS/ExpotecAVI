@@ -31,6 +31,7 @@ namespace ExpotecAVI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perguntas));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,13 +39,13 @@ namespace ExpotecAVI
             // 
             // listBox1
             // 
-            this.listBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.listBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 30;
+            this.listBox1.ItemHeight = 25;
             this.listBox1.Location = new System.Drawing.Point(10, 36);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.listBox1.Size = new System.Drawing.Size(341, 304);
+            this.listBox1.Size = new System.Drawing.Size(567, 329);
             this.listBox1.TabIndex = 0;
             this.listBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Perguntas_KeyDown);
             // 
@@ -61,23 +62,25 @@ namespace ExpotecAVI
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic);
-            this.label2.Location = new System.Drawing.Point(12, 343);
+            this.label2.Location = new System.Drawing.Point(12, 369);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(339, 38);
+            this.label2.Size = new System.Drawing.Size(565, 38);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Digite a tecla correspondente para mostrar a explicação";
+            this.label2.Text = "Digite a tecla correspondente para mostrar a explicação\r\nCaso sua dúvida não este" +
+    "ja presente, consulte com o professor em aula";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Perguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 391);
+            this.ClientSize = new System.Drawing.Size(589, 416);
             this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Perguntas";

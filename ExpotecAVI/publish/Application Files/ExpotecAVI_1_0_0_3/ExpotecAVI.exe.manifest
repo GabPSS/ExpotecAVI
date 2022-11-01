@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ExpotecAVI.exe" version="1.0.0.3" publicKeyToken="7a58a9feb5a9bee9" language="pt-BR" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icone.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ExpotecAVI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ExpotecAVI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PMsPVsmvFjX6+pek9VqCPa713MxCK9xQde3ZS92qzIw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExpotecAVI.exe" size="118712">
+      <assemblyIdentity name="ExpotecAVI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E4CpBOEBjkORyksLXx3r8CKQmLO4EZcpVSXBnyobaFU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HqIKUa1YdSKBxTE3tnJ1x9aMVGql7GPOjTANxUlTxr4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="aulas\1ª Lei de Ohm.valpk" size="55516650">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+zfAzgndH90zizaslcnKrO7srFrF97y2+1ev+e9HH7w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ExpotecAVI.exe.config" size="927">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V1Ca77mGW/DI9qijBpn5dnA/oMr1U2h2WOOsqPKyYZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HiddenMouse.cur" size="326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v3m//bpw9FbLQG/R7OhlJ1A2O5QYhRC11z82yOpueuk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icone.ico" size="5694">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EV/ggmHBP/XyppG5gMuY2KLaMPGTjkCGXJYqViRUlzk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DELLINHA\katia" issuerKeyHash="bbe78a066e834019d817ab0b6455ed0e33c9f712" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OGrwo5rO08y8o39A47H3CxxiM2yk7ML4fMXgzZgkf6g=</DigestValue></Reference></SignedInfo><SignatureValue>wgEyqin9bWFbDeThPcL1xdwzyRbmRAeL9Qz7XR2ZatOFi6s4VbIvVDHW1SUVFtm+ewr73cigsXh/2J7xIDBW2ZJ/ha53k2JCuUT4eOeVl8xgDPEggZyySEFpOtbLBQdE9z9sSYc33eOjl42PNqiAkumJJY/erKQZIWd1rjQb4K8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xLW3da9ZneFNUjv1ks6ngW9XsezoMqGzqBU8vgWVSp8bZ4nCl7fOGi5dJvxlIZ8jwVE3DSl8Uo52VnAqRrVaVR5FrHEhfmkx9QEsK6hmRnOHnI0/8daWOCl8D35UBnRxQUeCiYFEhOSNU8bUDsj7flISNR6rAzujF/Id0bdRU/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a87f2498cde0c57cf8c2eca46c33621c0bf7b1e3407fa3bcccd3ce9aa3f06a38" Description="" Url=""><as:assemblyIdentity name="ExpotecAVI.exe" version="1.0.0.3" publicKeyToken="7a58a9feb5a9bee9" language="pt-BR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DELLINHA\katia</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FR7DIxE0WvGhAStS8F4xDgMM/WaZLYNu5yKjRVF53Qc=</DigestValue></Reference></SignedInfo><SignatureValue>fGu6wo/Bo1PLAlQPRLlCRnrL3OEuwxO5DRZBL4WO43btOrUBIz66Sg/ew5yuN5V9bCStgZavt4djRjGV9En1xLg5LfFqQSSkZYMJH/yA66d8ojhvU4vNxHBbzAHWHHJEENpPCVfZOGQkI/iQu5Dler8huC5wcUYpQ2TvtL+lh/M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xLW3da9ZneFNUjv1ks6ngW9XsezoMqGzqBU8vgWVSp8bZ4nCl7fOGi5dJvxlIZ8jwVE3DSl8Uo52VnAqRrVaVR5FrHEhfmkx9QEsK6hmRnOHnI0/8daWOCl8D35UBnRxQUeCiYFEhOSNU8bUDsj7flISNR6rAzujF/Id0bdRU/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQETD7jnpHi6RIHXg0E/RIBzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwARABFAEwATABJAE4ASABBAFwAawBhAHQAaQBhMB4XDTIyMTAyNTAwMTAyNFoXDTIzMTAyNTA2MTAyNFowJzElMCMGA1UEAx4cAEQARQBMAEwASQBOAEgAQQBcAGsAYQB0AGkAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxLW3da9ZneFNUjv1ks6ngW9XsezoMqGzqBU8vgWVSp8bZ4nCl7fOGi5dJvxlIZ8jwVE3DSl8Uo52VnAqRrVaVR5FrHEhfmkx9QEsK6hmRnOHnI0/8daWOCl8D35UBnRxQUeCiYFEhOSNU8bUDsj7flISNR6rAzujF/Id0bdRU/UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAMpWXjT6t34hg9xU1pIcpLMbgZ0PkfevFc7/r6SlPe0l7YmEvIJi9ZeogAKMt6y58dbF0yCTxVsr+Xwg4che04REtnWZ9OA42MPhvd7x2LI1o81VO/xf3WrJgU+sz37BkHvWbJpxHchNqGyzaH/Obj6K0qP49gjZFAaAdIi8U0tQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

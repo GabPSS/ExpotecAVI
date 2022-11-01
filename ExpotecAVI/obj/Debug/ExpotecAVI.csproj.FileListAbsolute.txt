@@ -71,7 +71,6 @@ E:\ExpotecAVI\ExpotecAVI\obj\Debug\ExpotecAVI.exe
 E:\ExpotecAVI\ExpotecAVI\obj\Debug\ExpotecAVI.pdb
 E:\ExpotecAVI\ExpotecAVI\obj\Debug\Interop.WMPLib.dll
 E:\ExpotecAVI\ExpotecAVI\bin\Debug\HiddenMouse.cur
-E:\ExpotecAVI\ExpotecAVI\bin\Debug\aulas\teste.valpk
 E:\ExpotecAVI\ExpotecAVI\bin\Debug\ExpotecAVI.exe.config
 E:\ExpotecAVI\ExpotecAVI\bin\Debug\ExpotecAVI.exe
 E:\ExpotecAVI\ExpotecAVI\bin\Debug\ExpotecAVI.pdb
@@ -81,3 +80,8 @@ E:\ExpotecAVI\ExpotecAVI\bin\Debug\Interop.WMPLib.dll
 E:\ExpotecAVI\ExpotecAVI\bin\Debug\AxInterop.WMPLib.dll
 E:\ExpotecAVI\ExpotecAVI\obj\Debug\AxInterop.WMPLib.dll
 E:\ExpotecAVI\ExpotecAVI\obj\Debug\ExpotecAVI.csproj.CopyComplete
+E:\ExpotecAVI\ExpotecAVI\obj\Debug\ExpotecAVI.exe.manifest
+E:\ExpotecAVI\ExpotecAVI\obj\Debug\ExpotecAVI.application
+E:\ExpotecAVI\ExpotecAVI\bin\Debug\ExpotecAVI.exe.manifest
+E:\ExpotecAVI\ExpotecAVI\bin\Debug\ExpotecAVI.application
+E:\ExpotecAVI\ExpotecAVI\bin\Debug\aulas\1ª Lei de Ohm.valpk
